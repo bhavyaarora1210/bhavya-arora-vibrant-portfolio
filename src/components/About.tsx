@@ -37,7 +37,7 @@ const About = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Profile Image Placeholder */}
+          <img src = "public/bhavya_image.png"></img>
           <div className="relative">
             <div className="aspect-square rounded-3xl glass-card p-8 hover-glow">
               <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl flex items-center justify-center">
