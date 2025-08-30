@@ -42,7 +42,11 @@ const About = () => {
             <div className="aspect-square rounded-3xl glass-card p-8 hover-glow">
               <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl flex items-center justify-center">
           
-                   <img src = "/bhavya_image.jpg" alt="Bhavya Arora" />
+                   <img
+  src="/bhavya_image.jpg"
+  alt="Bhavya Arora"
+  className="w-full h-full object-cover rounded-2xl"
+/>
               </div>
             </div>
             {/* Decorative elements */}
