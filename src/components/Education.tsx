@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { GraduationCap, Calendar, MapPin, Award, BookOpen } from 'lucide-react';
+import { GraduationCap, Calendar, MapPin, BookOpen } from 'lucide-react';
 
 const Education = () => {
   const education = [
@@ -12,11 +12,11 @@ const Education = () => {
       duration: "2022 - 2026",
       type: "Undergraduate",
       highlights: [
-    "Specialized in Electrical Engineering with focus on Data Analytics, and Data Mining and Visualisation",
-    "Relevant Coursework: Data Structures & Algorithms, Machine Learning, Signal Processing, Power Systems, and Control Engineering",
-    "Strong foundation in Mathematics, Algorithms, and Core Electrical Engineering subjects",
-    "Applied academic knowledge to projects in Data Analytics, Signal Processing, and AI applications in Electrical Systems"
-]
+        "Specialized in Electrical Engineering with focus on Data Analytics, and Data Mining and Visualisation",
+        "Relevant Coursework: Data Structures & Algorithms, Machine Learning, Signal Processing, Power Systems, and Control Engineering",
+        "Strong foundation in Mathematics, Algorithms, and Core Electrical Engineering subjects",
+        "Applied academic knowledge to projects in Data Analytics, Signal Processing, and AI applications in Electrical Systems"
+      ]
     },
     {
       degree: "Senior Secondary Education (XII) - Science",
@@ -25,11 +25,11 @@ const Education = () => {
       duration: "2019 - 2020",
       type: "High School",
       highlights: [
-    "Physics, Chemistry, Mathematics, Biology",
-    "Trained Classical Dancer with stage performances",
-     "Captain of the School Basketball Team",
-    "Participated in Inter School Science Fair with innovative projects"
-]
+        "Physics, Chemistry, Mathematics, Biology",
+        "Trained Classical Dancer with stage performances",
+        "Captain of the School Basketball Team",
+        "Participated in Inter School Science Fair with innovative projects"
+      ]
     },
     {
       degree: "Secondary Education (X)",
@@ -38,11 +38,11 @@ const Education = () => {
       duration: "2018 - 2019",
       type: "Secondary",
       highlights: [
-    "Strong academic foundation in Science and Mathematics",
-    "Achieved 3rd Position in International Science Olympiad",
-    "Represented school in Basketball tournaments",
-    "Participated in School Science Fair showcasing innovative ideas"
-]
+        "Strong academic foundation in Science and Mathematics",
+        "Achieved 3rd Position in International Science Olympiad",
+        "Represented school in Basketball tournaments",
+        "Participated in School Science Fair showcasing innovative ideas"
+      ]
     }
   ];
 
@@ -108,7 +108,6 @@ const Education = () => {
                     {edu.location}
                   </div>
                 </div>
-                {/* Removed rank icon and grade row */}
               </div>
 
               <div className="space-y-2">
@@ -135,7 +134,6 @@ const Education = () => {
           <div className="grid md:grid-cols-2 gap-4">
             {certifications.map((cert, index) => (
               <div key={index} className="flex items-start gap-3 p-4 bg-white/5 rounded-lg border border-white/10 hover:border-primary/30 transition-colors">
-                <Award className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-white/90">{cert}</span>
               </div>
             ))}
@@ -143,16 +141,11 @@ const Education = () => {
         </Card>
 
         {/* Education Stats */}
-        <div className="mt-16 grid md:grid-cols-3 gap-8">
+        <div className="mt-16 grid md:grid-cols-2 gap-8">
           <Card className="glass-card p-8 text-center hover-glow">
             <GraduationCap className="h-8 w-8 text-primary mx-auto mb-4" />
             <div className="text-3xl font-bold text-white mb-2">4+</div>
             <div className="text-white/80">Years of Study</div>
-          </Card>
-          <Card className="glass-card p-8 text-center hover-glow">
-            <Award className="h-8 w-8 text-secondary mx-auto mb-4" />
-            <div className="text-3xl font-bold text-white mb-2">5+</div>
-            <div className="text-white/80">Certifications</div>
           </Card>
           <Card className="glass-card p-8 text-center hover-glow">
             <BookOpen className="h-8 w-8 text-accent mx-auto mb-4" />
