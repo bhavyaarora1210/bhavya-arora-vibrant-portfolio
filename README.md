@@ -1,73 +1,19 @@
-# Welcome to your Lovable project
+# Bhavya Arora – Vibrant Portfolio 🌟
 
-## Project info
+Welcome to my personal **portfolio website**! This project is a reflection of my journey as a developer and designer, showcasing my skills, creativity, and passion for building visually engaging and user-friendly digital experiences. The site is designed with a vibrant aesthetic, responsive layout, smooth animations, and interactive elements, making it accessible across devices. It highlights my technical expertise in **HTML, CSS, JavaScript** (and additional modern tools like frameworks or libraries if integrated), while also serving as a central hub where anyone can explore my work, download my resume, connect with me through social media, or get in touch directly. The portfolio demonstrates my ability to blend design with functionality, offering sections like an about-me introduction, a skills overview, and a clean, professional contact page. It is hosted online for easy access, but can also be cloned and run locally with simple setup steps. Contributions, feedback, and suggestions are always welcome, as I believe in continuously learning and improving. Thank you for visiting, and I hope this portfolio gives you a clear glimpse into my professional profile and creative identity!  
 
-**URL**: https://lovable.dev/projects/6bd88e79-150e-490b-9025-2e06be40f591
+## 🚀 Live Demo  
+👉 [View My Portfolio](https://your-username.github.io/bhavya-arora-vibrant-portfolio)  
 
-## How can I edit this code?
+## 🛠️ Technologies Used  
+- HTML5  
+- CSS3 (Flexbox, Grid, Animations)  
+- JavaScript (ES6+)  
+- Optional: React / Tailwind / SASS (if added)  
+- GitHub Pages for deployment  
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/6bd88e79-150e-490b-9025-2e06be40f591) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6bd88e79-150e-490b-9025-2e06be40f591) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📂 Getting Started  
+Clone the repository and run locally:  
+```bash
+git clone https://github.com/bhavyaarora1210/bhavya-arora-vibrant-portfolio.git
+cd bhavya-arora-vibrant-portfolio
