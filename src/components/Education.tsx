@@ -10,42 +10,39 @@ const Education = () => {
       institution: "Thapar Institute of Engineering and Technology",
       location: "Patiala, Punjab, India",
       duration: "2022 - 2026",
-      grade: "CGPA: 8.5/10",
       type: "Undergraduate",
       highlights: [
-        "Specialized in Power Systems and Control Engineering",
-        "Relevant Coursework: Data Structures, Machine Learning, Signal Processing",
-        "Member of IEEE Student Chapter",
-        "Active participant in technical symposiums and hackathons"
-      ]
+    "Specialized in Electrical Engineering with focus on Data Analytics, and Data Mining and Visualisation",
+    "Relevant Coursework: Data Structures & Algorithms, Machine Learning, Signal Processing, Power Systems, and Control Engineering",
+    "Strong foundation in Mathematics, Algorithms, and Core Electrical Engineering subjects",
+    "Applied academic knowledge to projects in Data Analytics, Signal Processing, and AI applications in Electrical Systems"
+]
     },
     {
       degree: "Senior Secondary Education (XII) - Science",
-      institution: "Delhi Public School",
+      institution: "Oxford Senior Secondary School",
       location: "New Delhi, India",
-      duration: "2020 - 2022",
-      grade: "95.2%",
+      duration: "2019 - 2020",
       type: "High School",
       highlights: [
-        "Physics, Chemistry, Mathematics, Computer Science",
-        "School Topper in Computer Science",
-        "President of Science Club",
-        "National level winner in Science Olympiad"
-      ]
+    "Physics, Chemistry, Mathematics, Biology",
+    "Trained Classical Dancer with stage performances",
+     "Captain of the School Basketball Team",
+    "Participated in Inter School Science Fair with innovative projects"
+]
     },
     {
       degree: "Secondary Education (X)",
-      institution: "Delhi Public School",
+      institution: "Oxford Senior Secondary School",
       location: "New Delhi, India",
-      duration: "2018 - 2020",
-      grade: "96.8%",
+      duration: "2018 - 2019",
       type: "Secondary",
       highlights: [
-        "Distinction in Mathematics and Science",
-        "Captain of School Quiz Team",
-        "Winner of Inter-school Robotics Competition",
-        "Active member of Computer Programming Club"
-      ]
+    "Strong academic foundation in Science and Mathematics",
+    "Achieved 3rd Position in International Science Olympiad",
+    "Represented school in Basketball tournaments",
+    "Participated in School Science Fair showcasing innovative ideas"
+]
     }
   ];
 
