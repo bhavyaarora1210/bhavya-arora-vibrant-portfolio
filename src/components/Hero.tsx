@@ -58,13 +58,33 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-8">
-            <Button 
-              size="lg" 
-              className="bg-white/10 hover:bg-white/20 text-white border border-white/20 hover-glow backdrop-blur-sm px-8 py-4 text-lg font-semibold"
-            >
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
-            </Button>
+            <a
+  href="https://ibra-insightflow.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button
+    size="lg"
+    variant="outline"
+    className="bg-primary/20 hover:bg-primary/30 text-white border border-primary/40 hover-glow backdrop-blur-sm px-8 py-4 text-lg font-semibold"
+  >
+    <Mail className="mr-2 h-5 w-5" />
+    Get in Touch
+  </Button>
+</a>
+<a 
+  href="/Bhavya_Resume.pdf" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <Button 
+    size="lg" 
+    className="bg-white/10 hover:bg-white/20 text-white border border-white/20 hover-glow backdrop-blur-sm px-8 py-4 text-lg font-semibold"
+  >
+    <Download className="mr-2 h-5 w-5" />
+    Download Resume
+  </Button>
+</a>
             <Button 
               size="lg" 
               variant="outline"
