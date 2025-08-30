@@ -37,15 +37,12 @@ const About = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <img src = "public/bhavya_image.png"></img>
+         
           <div className="relative">
             <div className="aspect-square rounded-3xl glass-card p-8 hover-glow">
               <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl flex items-center justify-center">
                 <div className="text-center text-white/80">
-                  <div className="w-32 h-32 bg-white/10 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-4xl font-bold">BA</span>
-                  </div>
-                  <p className="text-sm">Profile Photo</p>
+                   <img src = "public/bhavya_image.png"></img>
                 </div>
               </div>
             </div>
