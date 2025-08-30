@@ -68,7 +68,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               variant="outline"
-              onClick={scrollToContact}
+              onClick="https://ibra-insightflow.vercel.app/"
               className="bg-primary/20 hover:bg-primary/30 text-white border border-primary/40 hover-glow backdrop-blur-sm px-8 py-4 text-lg font-semibold"
             >
               <Mail className="mr-2 h-5 w-5" />
