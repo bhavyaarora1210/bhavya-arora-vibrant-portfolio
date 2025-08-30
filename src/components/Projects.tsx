@@ -25,7 +25,7 @@ const Projects = () => {
       image: "project-2",
       links: {
         github: "#",
-        demo: "#"
+        demo: "https://ibra-insightflow.vercel.app/"
       }
     },
     {
