@@ -108,11 +108,7 @@ const Education = () => {
                     {edu.location}
                   </div>
                 </div>
-
-                <div className="flex items-center mb-4">
-                  <Award className="h-4 w-4 mr-2 text-primary" />
-                  <span className="text-primary font-semibold">{edu.grade}</span>
-                </div>
+                {/* Removed rank icon and grade row */}
               </div>
 
               <div className="space-y-2">
