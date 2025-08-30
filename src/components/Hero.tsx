@@ -73,7 +73,7 @@ const Hero = () => {
   </Button>
 </a>
 <a 
-  href="/Bhavya_Resume.pdf" 
+  href="/Bhavya Arora Resume.pdf" 
   target="_blank" 
   rel="noopener noreferrer"
 >
