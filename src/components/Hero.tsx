@@ -63,14 +63,6 @@ const Hero = () => {
   target="_blank"
   rel="noopener noreferrer"
 >
-  <Button
-    size="lg"
-    variant="outline"
-    className="bg-primary/20 hover:bg-primary/30 text-white border border-primary/40 hover-glow backdrop-blur-sm px-8 py-4 text-lg font-semibold"
-  >
-    <Mail className="mr-2 h-5 w-5" />
-    Get in Touch
-  </Button>
 </a>
 <a 
   href="/Bhavya Arora Resume.pdf" 
