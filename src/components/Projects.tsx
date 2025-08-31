@@ -29,14 +29,14 @@ const Projects = () => {
       }
     },
     {
-      title: "Smart Traffic Management System",
-      description: "IoT-based traffic optimization solution using real-time data processing and ML algorithms to reduce congestion and improve urban mobility patterns.",
-      techStack: ["Python", "OpenCV", "IoT", "Deep Learning", "Real-time Processing"],
-      category: "Smart Cities",
-      image: "project-3",
-      links: {
-        github: "#",
-        demo: "#"
+      title: "Electric Power Consumption Predictor",
+description: "Machine learning-based solution to forecast real-time power consumption using multiple parameters, enabling better demand management at state and district levels.",
+techStack: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Machine Learning", "Data Analytics"],
+category: "Energy & Sustainability",
+image: "project-power",
+links: {
+  github: "#",
+  demo: "#"
       }
     }
   ];
