@@ -6,43 +6,42 @@ import { Building, Calendar, MapPin, Award } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      role: "Data Analytics Intern",
-      company: "Tech Innovations Ltd.",
-      duration: "Jun 2024 - Aug 2024",
+      role: "Data Analyst Intern",
+      company: "Goalwit Technologies Pvt Ltd.",
+      duration: "Jun 2025 - Aug 2025",
+      location: "Delhi, India",
+      type: "Data Analytics Internship",
+      achievements: [
+    "Analyzed user engagement data to improve retention by 15% and match accuracy by 20%",
+    "Automated KPI reporting dashboards, boosting social media insights by 15%",
+    "Optimized onboarding funnel via EDA, reducing signup drop-off by 25%"
+]
+    },
+    {
+      role: "Summer Intern",
+      company: "Botted Technologies Pvt Ltd.",
+      duration: "Jun 2024 - July 2024",
+      location: "Gurugram, India",
+      type: "Industry",
+achievements: [
+  "Researched market trends and competitor benchmarking to identify growth opportunities",
+  "Implemented a customer relationship management (CRM) system to enhance personalization and track interactions",
+  "Generated 47+ customer leads by executing targeted marketing strategies for schools and universities",
+  "Contributed to brand awareness initiatives reaching 100+ potential clients"
+]
+    },
+    {
+      role: "Social Engagement Intern",
+      company: "FLUCO",
+      duration: "June 2023 - July 2023",
       location: "Remote",
       type: "Internship",
       achievements: [
-        "Developed automated data processing pipelines that reduced manual work by 60%",
-        "Created interactive dashboards using Python and Plotly for business intelligence",
-        "Analyzed customer behavior patterns leading to 15% improvement in retention strategies",
-        "Collaborated with cross-functional teams to implement ML-based recommendation systems"
-      ]
-    },
-    {
-      role: "Research Assistant",
-      company: "Thapar Institute of Engineering and Technology",
-      duration: "Jan 2024 - Present",
-      location: "Patiala, India",
-      type: "Research",
-      achievements: [
-        "Conducting research on computer vision applications in precision agriculture",
-        "Developing deep learning models for crop disease detection with 92% accuracy",
-        "Co-authored research paper on AI-driven farming solutions",
-        "Mentoring junior students in machine learning fundamentals"
-      ]
-    },
-    {
-      role: "Software Development Intern",
-      company: "StartupXYZ",
-      duration: "May 2023 - Jul 2023",
-      location: "Chandigarh, India",
-      type: "Internship",
-      achievements: [
-        "Built responsive web applications using React.js and Node.js",
-        "Implemented RESTful APIs for mobile application backend",
-        "Optimized database queries resulting in 40% faster response times",
-        "Participated in agile development cycles and code review processes"
-      ]
+    "Managed and grew online community engagement across social media platforms",
+    "Designed and executed digital campaigns that increased follower interactions by 20%",
+    "Analyzed engagement metrics to optimize posting schedules and content strategy",
+    "Collaborated with cross-functional teams to improve brand visibility and user outreach"
+]
     }
   ];
 
