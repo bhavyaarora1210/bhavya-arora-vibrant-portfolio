@@ -35,7 +35,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      url: 'https://linkedin.com/in/bhavya-arora',
+      url: 'https://www.linkedin.com/in/bhavya-arora-7a9381266/',
       color: 'hover:text-blue-400'
     },
     {
@@ -53,7 +53,7 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      url: 'mailto:bhavya@example.com',
+      url: 'mailto:bhavyaarora627@gmail.com',
       color: 'hover:text-red-400'
     }
   ];
@@ -62,19 +62,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'bhavya.arora@thapar.edu',
+      value: 'bhavyaarora627@gmail.com',
       color: 'text-primary'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 98765 43210',
+      value: '+91 9773889796',
       color: 'text-secondary'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Patiala, Punjab, India',
+      value: 'Delhi, India',
       color: 'text-accent'
     }
   ];
